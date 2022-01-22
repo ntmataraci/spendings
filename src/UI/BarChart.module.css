@@ -1,0 +1,49 @@
+.main{
+    min-width: 350px;
+    max-width: 500px;
+    margin:auto;
+    margin-top:0.2rem;
+    height:250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:3%;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.month_columns{
+    width:3%;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap:0.2rem;
+}
+
+.month_columns__name{
+    text-align: end;
+  width:100%;
+}
+.month_columns__bar{
+    height:150px;
+    border:1px solid black;
+    width:100%;
+  margin: auto;
+
+}
+
+
+.month_columns__emptybar{
+ height: 150px;
+    width:100%;
+    margin: auto;
+    background-color: yellow; 
+}
+
+.month_columns__filledbar{
+    height:0px;
+    width:100%;
+    margin: auto;
+    background-color: green;
+}

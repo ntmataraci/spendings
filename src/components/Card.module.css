@@ -1,0 +1,57 @@
+.main{
+    width:300px;
+    height:80px;
+    border:1px solid black;
+    border-radius: 2rem;
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto;
+    justify-content: center;
+    text-align: center;
+    padding:0.7rem;
+    background-color: rgba(228, 138, 74, 0.63);
+}
+
+.date_box{
+    width:20%;
+    min-width: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    border-radius: 1rem;
+    color:white;
+    padding:0.1rem;
+}
+
+.date_box__day{
+    font-size: 2rem;
+    margin:auto;
+}
+
+.date_box__year{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.price_box{
+width:20%;
+margin:auto;
+background-color: blueviolet;
+color:white;
+font-weight: bold;
+border-radius: 1rem;
+height:90%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.content_box{
+    width:55%;
+    margin:auto;
+    color:black;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+
+}
